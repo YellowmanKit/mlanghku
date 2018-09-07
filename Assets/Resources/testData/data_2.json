@@ -1,0 +1,59 @@
+{
+    "user": {
+        "banned": "0",
+        "comments": ["Good", "Excellent"],
+        "identity": "2",
+        "realName": "Test Teacher",
+        "school": {
+            "__type": "Pointer",
+            "className": "School",
+            "objectId": "schoola"
+        },
+        "username": "Teacher",
+        "realName": "Test Teacher",
+        "objectId": "testuser2"
+    },
+    "my-course": {
+        "coursea": {
+            "courseTeacher": {
+                "__type": "Pointer",
+                "className": "_User",
+                "objectId": "testuser2"
+            },
+            "courseTitle": "1A",
+            "numOfTeacherAttention": "0",
+            "school": {
+                "__type": "Pointer",
+                "className": "School",
+                "objectId": "schoola"
+            },
+            "objectId": "coursea"
+        }
+    },
+    "my-projects": {
+        "projecta": {
+            "course": {
+                "__type": "Pointer",
+                "className": "Course",
+                "objectId": "coursea"
+            },
+            "courseIconUpdatedAt": "1442805093",
+            "dueDate": {
+                "__type": "Date",
+                "iso": "2016-02-06T02:45:00.000Z"
+            },
+            "isDeleted": "0",
+            "numOfStudentDone": "0",
+            "numOfTeacherAttention": "0",
+            "projectDesc": "Find different jobs",
+            "projectTitle": "Jobs",
+            "type": "1",
+            "objectId": "projecta"
+        }
+    },
+    "image": {
+        "project-projecta.jpg": {
+            "url": "http://files.parsetfss.com/f4f234a7-c02d-4ec5-b07c-3dd5c4f65d71/tfss-b771a061-3db7-4639-8794-0c0b9d265d85-icon.jpg"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "course": {
+        "coursea": {
+            "students": {
+                "testuser1":{
+                    "banned": "0",
+                    "comments": [],
+                    "identity": "1",
+                    "numOfFeaturedCards": "0",
+                    "numOfSubmittedCards": "0",
+                    "numOfTeacherAttention": "0",
+                    "realName": "Test Student",
+                    "school": {
+                        "__type": "Pointer",
+                        "className": "School",
+                        "objectId": "schoola"
+                    },
+                    "studentOfCourse": {
+                        "__type": "Pointer",
+                        "className": "Course",
+                        "objectId": "coursea"
+                    },
+                    "username": "student",
+                    "objectId": "testuser1"
+                }
+            }
+        }
+    }
+}
